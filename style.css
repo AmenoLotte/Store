@@ -1,0 +1,500 @@
+html {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'PT-Sans', sans-serif;
+}
+
+.contair-header {
+    margin: 0px 280px;
+}
+
+.header {
+    background-image: url(img/bg.png);
+    height: 75vh;
+    background-repeat: no-repeat;
+}
+
+.header-line {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 26px;
+}
+
+.nav-item {
+    color: rgb(105, 104, 104);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.card-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 38px;
+    right: 290px;
+}
+
+.num {
+    color: rgb(105, 104, 104);
+    text-decoration: none;  
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'PT-Sans', sans-serif;
+    line-height: 20.7px;  
+    
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #FE5B00
+
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.phone {
+    position: absolute;
+    top: 37px;
+    right: 352px;
+}
+
+.header-down {
+    color: #ffffff;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    left: 360px;
+    top: 192px;
+
+    transform: translateY(100%); 
+            opacity: 0; 
+            transition: transform 1.2s ease-in-out, opacity 1.2s ease-in-out; 
+}
+
+.header-down.active {
+    transform: translateY(0); 
+            opacity: 1; 
+}
+
+
+.kran {
+    position: absolute;
+    width: 475px;
+    right: 362.88px;
+    left: 1082.12px;
+    top: 142px;
+}
+
+.widget {
+    font-size: 20px;
+    position: absolute;
+    font-family: 'PT-Sans', sans-serif;
+    width: 375px;
+    height: 158px;
+    top: 374px;
+    left: 360px;
+    list-style-image: url(img/Vector.png);
+    display: flex;
+}
+
+.widget a {
+    text-decoration: none;
+    display: block;
+    color: rgb(105, 104, 104);
+    padding: 5px 10px;
+    height: 20px;
+    transition: all .5s;
+    border-bottom: 1px solid #cccccc1a;
+}
+
+.widul {
+    display: none;
+}
+
+.widget li:hover ul {
+    display: block;
+}
+
+.header-button {
+    background-color: #FE5B00;
+    padding: 15px 17px 11px 15px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'PT-Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 10px 5px 30px #FE5B00;
+}
+
+.header-btn {
+    position: absolute;
+    top: 449px;
+    left: 1203px;
+}
+
+.header-button:hover {
+    background-color: #fe5900dc;
+    transition: background-color 0.3s linear;
+}
+
+.history-ops span {
+    color: #FE5B00;
+    font-weight: bold;
+}
+
+.history-ops {
+    position: absolute;
+    max-width: 594px;
+    max-height: 64px;
+    top: 774px;
+    left: 414px;
+    text-align: left;
+
+    font-size: 16px;
+    font-family: 'PT-Sans', sans-serif;
+    line-height: 32px ;
+    color: #151716;
+}
+
+.history {
+    height: 38vh;
+    background-repeat: no-repeat;
+    background: rgb(241, 241, 241);
+}
+
+.img-sobst {
+    position: absolute;
+    padding-top: 82px;
+    left: 1130px;
+}
+
+.apple {
+    position: absolute;
+    padding-top: 197px;
+    left: 1130px;
+}
+
+.sobst-proiz {
+    position: absolute;
+    left: 1207px;
+    padding-top: 60px;
+}
+
+.apple-dost {
+    position: absolute;
+    padding-top: 178px;
+    left: 1207px;
+}
+
+.text-proiz {
+    position: absolute;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'PT-Sans', sans-serif;
+    color: #7B7B7B;
+    left: 1207px;
+    padding-top: 105px;
+}
+
+.text-apple {
+    position: absolute;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'PT-Sans', sans-serif;
+    color: #7B7B7B;
+    left: 1207px;
+    padding-top: 222px;
+}
+
+
+.text-badroom {
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 80px;
+    left: 360px;
+    position: absolute;
+}
+
+.vanna {
+    position: absolute;
+    left: 360px;
+    padding-top: 144px;
+}
+
+.vanna:hover {
+    opacity: 0.9;
+}
+
+.text-vanna {
+    position: absolute;
+    color: #fff;
+    padding-top: 448px;
+    left: 384px;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-vanna a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mebel {
+    position: absolute;
+    left: 670px;
+    padding-top: 144px;
+}
+
+.text-mebel {
+    position: absolute;
+    color: #fff;
+    padding-top: 448px;
+    left: 692px;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.text-mebel a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mebel:hover{
+    opacity: 0.9;
+}
+
+.dyh {
+    position: absolute;
+    left: 985px;
+    padding-top: 144px;
+}
+
+.text-dyh {
+    position: absolute;
+    color: #fff;
+    padding-top: 448px;
+    left: 1005px;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.text-dyh a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dyh:hover {
+    opacity: 0.9;
+}
+
+.tyalet {
+    position: absolute;
+    left: 1300px;
+    padding-top: 144px;
+}
+
+.text-tyalet {
+    position: absolute;
+    color: #fff;
+    padding-top: 448px;
+    left: 1320px;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-tyalet a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tyalet:hover {
+    opacity: 0.9;
+}
+
+
+.black-block {
+    position: relative;
+    background-image: url(img/photo-fon.png);
+    top: 594px;
+    height: 70vh;
+    width: 100vh;
+    background-repeat: no-repeat;
+}
+
+.block-kran {
+    position: relative;
+    background-image: url(img/photo-kran.png);
+    background-repeat: no-repeat;
+    top: -56px;
+    left: 926px;
+    height: 70vh;
+    width: 105vh;
+}
+
+.kollekc {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'PT-Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 36px;
+    top: 1724px;
+    left: 366px;
+}
+
+.text-kollekc {
+    position: absolute;
+    color: #bebebe;
+    font-family: 'PT-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    top: 1780px;
+    left: 366px;
+}
+
+.text-kran {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'PT-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    top: 1737px;
+    left: 995px;
+}
+
+.block-button {
+    background-color: #FE5B00;
+    padding: 15px 17px 11px 15px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'PT-Sans', sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 10px 5px 30px #FE5B00;
+}
+
+.block-btn {
+    position: absolute;
+    top: 1795px;
+    left: 995px;
+}
+
+.block-button:hover {
+    background-color: #fe5900dc;
+    transition: background-color 0.3s linear;
+}
+
+.full-kollekc {
+    font-size: 15px;
+    color: #bebebe;
+    font-family: 'PT-Sans', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    height: 1000px;
+}
+
+.full-kollekc a:hover {
+    opacity: 0.9;
+    color: #FE5B00;
+}
+
+.full-kollekc a {
+    text-decoration: none;
+    position: absolute;
+    top: 2230px;
+    left: 386px;
+    display: block;
+    color: rgb(105, 104, 104);
+    transition: all .5s;
+    border-bottom: 1px solid #cccccc1a;
+    transition: color 0.3s linear;
+}
+
+.block-full {
+    width: 1vh;
+    height: 1vh;
+}
+
+#getLocationButton {
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 1290px;
+    left: 760px;
+    color: white;
+    background-color: #FE5B00;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+
+}
+
+#getLocationButton:hover {
+    background-color: #fe5900dc;
+    transition: background-color 0.3s linear;
+}
+
+#coordinates {
+    position: relative;
+    top: 1320px;
+    left: 700px;
+}
+
+.logo {
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.logo.blinking {
+    opacity: 0;
+}
+
+
+.fon {
+    position: relative;
+    top: 143vh;
+    height: 30vh;
+    left: -3vh;
+}
+
+
+#changeColorButton {
+    background-color: #FE5B00;
+    color: #fff;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    
+}
+
+#changeColorButton:hover {
+    background-color: #fe5900dc;
+    transition: background-color 0.3s linear;
+}
